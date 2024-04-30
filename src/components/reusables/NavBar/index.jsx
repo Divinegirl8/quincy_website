@@ -19,12 +19,25 @@ const NavBar = () => {
                     <h1>QUINCY TOBENNA ALAGBU</h1>
                 </div>
 
-                <div className={style.childCont}>
-                    <button className={`${style.hamburger} ${isActive ? 'active':''}`} onClick={toggle}>
-                        <div className={style.bar}></div>
+                <button className={`${style.hamburger} ${isActive ? style.active : ''}`} onClick={toggle}>
+                    <div className={style.bar}></div>
+                </button>
 
-                    </button>
-                    <span style={{color:"red"}}>BLOG</span>
+                <div className={style.childCont}>
+                    <span style={{color: "red"}}>BLOG</span>
+                    <span>BOOKS</span>
+                    <span>ABOUT</span>
+                    <span>CONTACT</span>
+                    <div className={style.ico}>
+                        <FontAwesomeIcon icon={faInstagram}/>
+                        <FontAwesomeIcon icon={faTiktok}/>
+                        <FontAwesomeIcon icon={faGoogle}/>
+
+                    </div>
+                </div>
+
+                <div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>
+                    <span style={{color: "red"}}>BLOG</span>
                     <span>BOOKS</span>
                     <span>ABOUT</span>
                     <span>CONTACT</span>
