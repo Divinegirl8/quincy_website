@@ -1,0 +1,100 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.childCont{
+display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 25px;
+
+}
+
+.ico{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    padding-left: 100px;
+}
+
+.frm{
+    padding-top: 20px;
+}
+
+.frm input{
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-left: none;
+    font-size: 20px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.hamburger{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 5px;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+}
+.hamburger .bar , .hamburger:after, .hamburger:before{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #ffff;
+    margin: 6px 0px;
+    transition: 0.4s;
+    display: block;
+}
+
+.hamburger.active:before{
+transform: rotate(-45deg)translate(-9px,6px);
+}
+.hamburger.active .bar{
+    opacity: 0;
+}
+
+.hamburger.active:after{
+    transform: rotate(45deg)translate(-9px,-6px);
+}
+
+@media screen and (max-width: 500px){
+body{
+    background-color: #61dafb;
+}
+
+    .hamburger{
+        display: block;
+        flex-direction: row;
+
+    }
+    .logo{
+        display: flex;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+}
