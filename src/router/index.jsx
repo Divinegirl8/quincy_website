@@ -2,12 +2,18 @@ import Layouts from "../components/Layouts";
 
 import About from "../features/About";
 import Books from "../features/Books";
+import Blog from "../features/Blog";
 
 export const Routes = [
+
     {
-        path : "/",
+        path : "",
         element: <Layouts/>,
         children : [
+            {
+                path: "/",
+                element: <Blog/>
+            },
             {
                 path: "/about",
                 element: <About/>,

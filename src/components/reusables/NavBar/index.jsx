@@ -25,7 +25,7 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                 </button>
 
                 <div className={style.childCont}>
-                    <Link to={""} className={style.link}  style={{color:textColor}}>
+                    <Link to={"/"} className={style.link}  style={{color:textColor}}>
                         <span className={style.blog}>BLOG</span>
                     </Link>
 
@@ -59,7 +59,7 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                 </div>
 
                 <div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>
-                    <Link to={""} className={style.link}  style={{color:textColor}}>
+                    <Link to={"/"} className={style.link}  style={{color:textColor}}>
                         <span className={style.blog}>BLOG</span>
                     </Link>
 
