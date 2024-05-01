@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-.foto{
-    width: 38%;
 
 
+.fto{
+    margin-top: 200px;
+}
+
+.fto .foto{
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
 }
 
 .mainCt{
@@ -14,8 +20,8 @@ flex-direction: row;
 }
 
 .writeUp{
+    padding: 0 50px;
     margin-top: 100px;
-    margin-left: 20px;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -23,16 +29,24 @@ flex-direction: row;
 }
 
 @media screen and (max-width: 500px){
-    .foto{
-        width: 100%;
-    }
+
     .mainCt{
         flex-direction: column;
     }
 
     .writeUp{
         margin-top: -25px;
-        margin-left: 15px;
+        padding: 0 20px;
 
+    }
+
+    .fto{
+        margin-top: 70px;
+    }
+
+    .fto .foto{
+        width: 95%;
+        height: 80%;
+        padding-left: 15px;
     }
 }

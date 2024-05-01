@@ -4,9 +4,11 @@ const About = () =>{
     return(
         <>
             <div className={style.mainCt}>
-                <img src={pht} alt={"quincy pix"} className={style.foto}/>
+                <div className={style.fto}>
+                    <img src={pht} alt={"quincy pix"} className={style.foto}/>
+                </div>
                 <div className={style.writeUp}>
-                  <p>
+                <p>
                       Quincy Alagbu (Full Name: Quincy Tobenna Alagbu), also known as Toben Quincy and Sir Quincy, is an award winning writer, copywriter, editor, ghostwriter, voice over artist, spoken-word artist and writing coach, who is passionate about making (and helping other people make) a powerful and lasting impact through writing and storytelling.
                   </p>
 
