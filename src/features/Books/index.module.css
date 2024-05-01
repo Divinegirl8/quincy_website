@@ -1,0 +1,50 @@
+.bookCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.bookCont img{
+    width: 65%;
+}
+.book1{
+    margin-left: 100px;
+}
+
+.book1 span, h4{
+    display: flex;
+    flex-direction: column;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.lnk{
+    color: red;
+    text-decoration: none;
+}
+
+.span2{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px){
+    .bookCont img{
+        width: 90%;
+    }
+    .bookCont{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 100px;
+    }
+    .span2{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .book1{
+        margin-left: 40px;
+    }
+}
