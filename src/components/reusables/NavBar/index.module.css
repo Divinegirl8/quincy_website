@@ -9,18 +9,36 @@
     position: fixed;
     z-index: 1000;
 }
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.blog{
+    color: red;
+}
 
 .childCont {
     display: flex;
     flex-direction: row;
     gap: 50px;
     padding-top: 25px;
+    cursor: pointer;
+}
+
+.childCont span:hover, .ig:hover, .tik:hover, .google:hover{
+    color: red;
+}
+
+
+.ico a {
+    color: white;
 }
 
 .ico {
     display: flex;
     gap: 20px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .logo {

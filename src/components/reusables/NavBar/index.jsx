@@ -2,6 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGoogle, faInstagram, faSearchengin, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import style from "./index.module.css"
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 
 const NavBar = () => {
@@ -24,28 +25,49 @@ const NavBar = () => {
                 </button>
 
                 <div className={style.childCont}>
-                    <span style={{color: "red"}}>BLOG</span>
+                    <span className={style.blog}>BLOG</span>
                     <span>BOOKS</span>
-                    <span>ABOUT</span>
+                    <Link to={"/about"} className={style.link}>
+                        <span>ABOUT</span>
+                    </Link>
+
                     <span>CONTACT</span>
                     <div className={style.ico}>
-                        <FontAwesomeIcon icon={faInstagram}/>
-                        <FontAwesomeIcon icon={faTiktok}/>
-                        <FontAwesomeIcon icon={faGoogle}/>
+                        <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faInstagram} className={style.ig}/>
+                        </a>
 
+                        <a href="https://www.tiktok.com/@tobenquincy?_t=8lxWpTnxM5V&_r=1" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faTiktok} className={style.tik}/>
+                        </a>
+
+                        <a href="mailto:quincyalagbu@gmail.com"  target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGoogle} className={style.google}/>
+                        </a>
                     </div>
                 </div>
 
                 <div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>
                     <span style={{color: "red"}}>BLOG</span>
                     <span>BOOKS</span>
-                    <span>ABOUT</span>
+                    <Link to={"/about"} className={style.link}>
+                        <span>ABOUT</span>
+                    </Link>
+
                     <span>CONTACT</span>
                     <div className={style.ico}>
-                        <FontAwesomeIcon icon={faInstagram}/>
-                        <FontAwesomeIcon icon={faTiktok}/>
-                        <FontAwesomeIcon icon={faGoogle}/>
+                        <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faInstagram} className={style.ig}/>
+                        </a>
 
+                        <a href="https://www.tiktok.com/@tobenquincy?_t=8lxWpTnxM5V&_r=1" target="_blank"
+                           rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faTiktok} className={style.tik}/>
+                        </a>
+
+                        <a href="mailto:quincyalagbu@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGoogle} className={style.google}/>
+                        </a>
                     </div>
                 </div>
 

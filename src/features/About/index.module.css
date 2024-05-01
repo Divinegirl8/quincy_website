@@ -1,0 +1,26 @@
+.foto{
+    width: 38%;
+}
+
+.mainCt{
+display: flex;
+flex-direction: row;
+    gap: 20px;
+}
+
+.writeUp{
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 500px){
+    .foto{
+        width: 100%;
+    }
+    .mainCt{
+        flex-direction: column;
+    }
+
+    .writeUp{
+        margin-top: 10px;
+    }
+}
