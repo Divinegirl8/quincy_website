@@ -45,8 +45,9 @@ flex-direction: row;
     }
 
     .fto .foto{
-        width: 95%;
+        width: 89%;
         height: 80%;
-        padding-left: 15px;
+        padding-left: 20px;
+
     }
 }
