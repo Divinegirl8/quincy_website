@@ -5,7 +5,7 @@ import {useState} from "react";
 import {Link} from "react-router-dom";
 
 
-const NavBar = () => {
+const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
     const  [isActive, setIsActive] = useState(false);
 
     const toggle = () =>{
@@ -25,13 +25,24 @@ const NavBar = () => {
                 </button>
 
                 <div className={style.childCont}>
-                    <span className={style.blog}>BLOG</span>
-                    <span>BOOKS</span>
-                    <Link to={"/about"} className={style.link}>
+                    <Link to={""} className={style.link}  style={{color:textColor}}>
+                        <span className={style.blog}>BLOG</span>
+                    </Link>
+
+                    <Link to={"/books"} className={style.link}  style={{color:textColor2}}>
+                        <span>BOOKS</span>
+                    </Link>
+
+
+                    <Link to={"/about"} className={style.link}  className={style.link} style={{color:textColor3}}>
                         <span>ABOUT</span>
                     </Link>
 
-                    <span>CONTACT</span>
+                    <Link to={""} className={style.link} style={{color:textColor4}}>
+                        <span>CONTACT</span>
+                    </Link>
+
+
                     <div className={style.ico}>
                         <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} className={style.ig}/>
@@ -48,13 +59,24 @@ const NavBar = () => {
                 </div>
 
                 <div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>
-                    <span style={{color: "red"}}>BLOG</span>
-                    <span>BOOKS</span>
-                    <Link to={"/about"} className={style.link}>
+                    <Link to={""} className={style.link}  style={{color:textColor}}>
+                        <span className={style.blog}>BLOG</span>
+                    </Link>
+
+                    <Link to={"/books"} className={style.link}  style={{color:textColor2}}>
+                        <span>BOOKS</span>
+                    </Link>
+
+
+                    <Link to={"/about"} className={style.link} style={{color:textColor3}}>
                         <span>ABOUT</span>
                     </Link>
 
-                    <span>CONTACT</span>
+                    <Link to={""} className={style.link}  style={{color:textColor4}}>
+                        <span>CONTACT</span>
+                    </Link>
+
+
                     <div className={style.ico}>
                         <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} className={style.ig}/>

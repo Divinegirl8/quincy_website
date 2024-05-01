@@ -5,7 +5,7 @@ import Footer from "../reusables/Footer";
 const Layouts = () =>{
     return(
         <>
-            <NavBar/>
+
             <Outlet/>
             <Footer/>
 

@@ -14,9 +14,6 @@
     text-decoration: none;
 }
 
-.blog{
-    color: red;
-}
 
 .childCont {
     display: flex;
@@ -59,11 +56,12 @@
 }
 
 .btn {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 20px;
-    height: 35px;
-    border-left: none;
+    height: 25px;
+    border: none;
+    margin-left: -32px;
     cursor: pointer;
 }
 

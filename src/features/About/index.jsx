@@ -1,8 +1,10 @@
 import style from "./index.module.css"
 import pht from "../../assests/quincy.jpeg"
+import NavBar from "../../components/reusables/NavBar";
 const About = () =>{
     return(
         <>
+            <NavBar textColor={"white"} textColor2={"white"} textColor3={"red"} textColor4={"white"}/>
             <div className={style.mainCt}>
                 <div className={style.fto}>
                     <img src={pht} alt={"quincy pix"} className={style.foto}/>
