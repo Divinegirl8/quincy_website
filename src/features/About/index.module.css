@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 .foto{
     width: 38%;
 }
@@ -10,6 +12,11 @@ flex-direction: row;
 
 .writeUp{
     margin-top: 150px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 500px){
@@ -22,5 +29,6 @@ flex-direction: row;
 
     .writeUp{
         margin-top: -25px;
+        margin-left: 15px;
     }
 }
