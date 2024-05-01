@@ -2,21 +2,27 @@
 
 .foto{
     width: 38%;
+
+
 }
 
 .mainCt{
 display: flex;
 flex-direction: row;
     gap: 20px;
+
 }
 
 .writeUp{
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-left: 20px;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
+    width: 58%;
+
 }
 
 @media screen and (max-width: 500px){
@@ -30,5 +36,6 @@ flex-direction: row;
     .writeUp{
         margin-top: -25px;
         margin-left: 15px;
+        width: 93%;
     }
 }
