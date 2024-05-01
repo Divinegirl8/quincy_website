@@ -87,8 +87,8 @@
 
 .mobileNav {
     position: fixed;
-    top: 50px;
-    left: 0;
+    top: 51px;
+    left: 70px;
     width: 100%;
     min-height: 100vh;
     display: none;
@@ -129,9 +129,11 @@
     }
 
     .ico {
-        padding-left: 200px;
         padding-top: 20px;
         font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     .childCont, .frm{
