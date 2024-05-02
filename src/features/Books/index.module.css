@@ -18,6 +18,7 @@
     font-weight: 700;
     font-style: italic;
 
+
 }
 
 .lnk{
@@ -31,8 +32,11 @@
 }
 
 @media screen and (max-width: 500px){
+    h3{
+        width: 80%;
+    }
     .bookCont img{
-        width: 90%;
+        width: 93%;
     }
     .bookCont{
         flex-direction: column;
@@ -45,6 +49,10 @@
     }
 
     .book1{
-        margin-left: 40px;
+        margin-left: 20px;
+    }
+
+    .book2 h3 ,.book2 h4{
+        padding: 0 20px;
     }
 }
