@@ -5,11 +5,16 @@
     padding-top: 100px;
 }
 .bookCont img{
-    width: 65%;
+    width: 55%;
 }
 .book1{
-    margin-left: 100px;
+    margin-left: 200px;
 }
+
+.book2 img{
+    width: 60%;
+}
+
 
 .book1 span, h4{
     display: flex;
@@ -27,10 +32,11 @@
 }
 
 .span2{
-    display: flex;
-    flex-direction: column;
+    width: 70%;
 }
-
+.wrt{
+    width: 50%;
+}
 @media screen and (max-width: 500px){
     h3{
         width: 80%;
@@ -44,8 +50,7 @@
         padding-top: 100px;
     }
     .span2{
-        flex-direction: row;
-        width: 100%;
+        width: 80%;
     }
 
     .book1{
@@ -54,5 +59,9 @@
 
     .book2 h3 ,.book2 h4{
         padding: 0 20px;
+    }
+
+    .wrt{
+        width: 85%;
     }
 }
