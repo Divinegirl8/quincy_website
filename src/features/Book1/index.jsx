@@ -62,9 +62,7 @@ const Book1 = () => {
                 <Link to={"/book2"}>
                     <img src={additionalBook} alt="Additional Book Cover" className={style.additionalBookImage}/>
                 </Link>
-                <div className={style.additionalBookInfoMobile}>
-                    <p>Never give your readers a reason to toss your book aside!</p>
-                </div>
+
             </div>
 
         </>

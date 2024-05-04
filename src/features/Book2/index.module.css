@@ -10,7 +10,6 @@
     max-width: 800px;
     padding: 20px;
     margin-left: 130px;
-
     background-color: #fff5ee;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 10px;
@@ -90,4 +89,42 @@
     width: 100%;
     text-align: center;
     font-size: 14px;
+}
+
+
+.additionalBookMobileSection2 {
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .mainContainer2 {
+        flex-direction: column;
+        padding-top: 70px;
+
+    }
+
+    .additionalBookSection2 {
+        display: none;
+
+    }
+    .authorInfo2 {
+        display: none;
+    }
+
+    .bookContainer2 {
+        background-color: #fff;
+        margin-left: 10px;
+        box-shadow: none;
+        border: none;
+    }
+    .additionalBookMobileSection2{
+        display: block;
+        margin-left: 30px;
+    }
+
+    .bookHeader2 h1 {
+       font-size: 23px;
+    }
+
+
 }
