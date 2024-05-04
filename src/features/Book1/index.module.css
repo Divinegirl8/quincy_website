@@ -10,7 +10,6 @@
     max-width: 800px;
     padding: 20px;
     margin-left: 130px;
-
     background-color: #fff5ee;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 10px;
@@ -49,7 +48,7 @@
 }
 
 .bookLinks {
-    margin: 20px 0;
+    margin-top: 20px ;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -90,4 +89,33 @@
     width: 100%;
     text-align: center;
     font-size: 14px;
+}
+
+.additionalBookSectionMobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .mainContainer {
+        flex-direction: column;
+
+    }
+
+    .additionalBookSection {
+        display: none;
+
+    }
+    .authorInfo {
+        display: none;
+    }
+
+    .bookContainer {
+        background-color: #fff;
+        margin-left: 10px;
+        box-shadow: none;
+        border: none;
+    }
+    .additionalBookSectionMobile{
+        display: block;
+    }
 }
