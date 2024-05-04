@@ -1,0 +1,93 @@
+.mainContainer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.bookContainer2 {
+    max-width: 800px;
+    padding: 20px;
+    margin-left: 130px;
+
+    background-color: #fff5ee;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.bookHeader2 h1, .bookHeader2 h2 {
+    color: #34568B;
+}
+
+.bookImage2 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.bookDescription2 {
+    color: #333;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.authorInfo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.authorImage2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bookLinks2 {
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bookLink2 {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.bookLink2:hover {
+    background-color: #45a049;
+}
+
+.additionalBookSection2 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    padding-top: 100px;
+}
+
+.additionalBookImage2 {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.additionalBookInfo2 {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,5 +1,5 @@
 import NavBar from "../../components/reusables/NavBar";
-import style from "../Book1/index.module.css";
+import style from "./index.module.css";
 import {Link} from "react-router-dom";
 import additionalBook from "../../assests/book1.jpeg";
 import book2 from "../../assests/book2.jpeg";
@@ -10,23 +10,23 @@ const Book2 = () => {
         <>
             <NavBar textColor={"white"} textColor2={"yellow"} textColor3={"white"} textColor4={"white"}/>
 
-            <div className={style.mainContainer}>
-                <div className={style.additionalBookSection}>
+            <div className={style.mainContainer2}>
+                <div className={style.additionalBookSection2}>
                     <h3>You may also read</h3>
                     <Link to={"/bookView"}>
-                        <img src={additionalBook} alt="Additional Book Cover" className={style.additionalBookImage}/>
+                        <img src={additionalBook} alt="Additional Book Cover" className={style.additionalBookImage2}/>
                     </Link>
-                    <div className={style.additionalBookInfo}>
+                    <div className={style.additionalBookInfo2}>
                         <p>Effortlessly and spiritually nutritious. A grandfather-grandson relationship in shades you've never seen before. A solid reminder of the power that memories carry.</p>
                     </div>
                 </div>
-                <div className={style.bookContainer}>
-                    <div className={style.bookHeader}>
+                <div className={style.bookContainer2}>
+                    <div className={style.bookHeader2}>
                         <h1>THE LITERARY SEDUCER: LURING YOUR READERS INTO YOUR BOOK AND KEEPING THEM SPELLBOUND FOR GOOD</h1>
 
                     </div>
-                    <img src={book2} alt="Omeiheukwu Book Cover" className={style.bookImage}/>
-                    <h3 className={style.bookDescription}>
+                    <img src={book2} alt="Omeiheukwu Book Cover" className={style.bookImage2}/>
+                    <h3 className={style.bookDescription2}>
                         Never give your readers a reason to toss your book aside!
                     </h3>
                     <p>
@@ -71,13 +71,13 @@ const Book2 = () => {
                     <p>
                         Find out now how you can take your writing to the next level without trying too hard!
                     </p>
-                    <div className={style.authorInfo}>
-                        <img src={pht} alt="Quincy Alagbu" className={style.authorImage}/>
+                    <div className={style.authorInfo2}>
+                        <img src={pht} alt="Quincy Alagbu" className={style.authorImage2}/>
                         <p>Quincy Alagbu's "The Literary Seducer" is a must-read guide for fiction authors, both seasoned and aspiring. Divided into three parts, it offers potent tips and techniques to captivate readers. Dispelling misconceptions, it provides straightforward advice on crafting compelling storylines without overwhelming readers. With its conversational style, this invaluable resource helps writers master the art of keeping readers hooked. Whether you're a veteran writer or just starting out, "The Literary Seducer" is your key to captivating your audience from start to finish.</p>
                     </div>
-                    <div className={style.bookLinks}>
+                    <div className={style.bookLinks2}>
                         <a href="https://www.amazon.com/LITERARY-SEDUCER-readers-keeping-spellbound-ebook/dp/B09LC3PRNN?ref_=ast_author_dp"
-                           className={style.bookLink} target="_blank" rel="noopener noreferrer">Get the eBook</a>
+                           className={style.bookLink2} target="_blank" rel="noopener noreferrer">Get the eBook</a>
                     </div>
                 </div>
             </div>
