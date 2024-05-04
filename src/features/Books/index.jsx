@@ -12,7 +12,7 @@ const Books = () =>{
                 <div className={styles.book1}>
                     <img src={book1} alt={"book 1"}/>
                     <h3>OMEIHEUKWU: THE ONE WHO DOES EXTRAORDINARY THINGS </h3>
-                    <h4 className={styles.wrt}>Effortlessly and spiritually nutritious. A grandfather-grandson relationship in shades you've never seen before. A solid reminder of the power that memories carry.<Link to={""} className={styles.lnk}>learn more</Link></h4>
+                    <h4 className={styles.wrt}>Effortlessly and spiritually nutritious. A grandfather-grandson relationship in shades you've never seen before. A solid reminder of the power that memories carry.<Link to={"/bookView"} className={styles.lnk}>learn more</Link></h4>
                 </div>
 
                 <div className={styles.book2}>
