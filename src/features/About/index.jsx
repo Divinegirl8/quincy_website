@@ -1,5 +1,5 @@
 import style from "./index.module.css"
-import pht from "../../assests/quincy.jpeg"
+import pht from "../../assests/booksImg/quincy.jpeg"
 import NavBar from "../../components/reusables/NavBar";
 const About = () =>{
     return(

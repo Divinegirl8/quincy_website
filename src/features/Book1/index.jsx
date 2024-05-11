@@ -1,7 +1,7 @@
-import book1 from "../../assests/book1.jpeg";
+import book1 from "../../assests/booksImg/book1.jpeg";
 import style from "./index.module.css";
-import pht from "../../assests/quincy.jpeg";
-import additionalBook from "../../assests/book2.jpeg";
+import pht from "../../assests/booksImg/quincy.jpeg";
+import additionalBook from "../../assests/booksImg/book2.jpeg";
 import NavBar from "../../components/reusables/NavBar";
 import {Link} from "react-router-dom";
 const Book1 = () => {

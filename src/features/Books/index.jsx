@@ -1,7 +1,7 @@
 import styles from  "./index.module.css"
 import NavBar from "../../components/reusables/NavBar";
-import book1 from  "../../assests/book1.jpeg";
-import book2 from  "../../assests/book2.jpeg";
+import book1 from "../../assests/booksImg/book1a.jpeg";
+import book2 from "../../assests/booksImg/book2a.jpeg";
 import {Link} from "react-router-dom";
 const Books = () =>{
     return(
