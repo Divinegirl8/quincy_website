@@ -9,21 +9,21 @@ const Blog = () =>{
                 <div>
                     <img src={blog} alt={"blog picture"} className={style.blogImg}/>
                 </div>
-                <div>
-                    <p>The night Obi moved into his new flat, something came for him. He was lounging on the sofa when the knock jarred him.</p>
+                <div className={style.pCont}>
+                    <p className={style.p1}>The night Obi moved into his new flat, something came for him. He was lounging on the sofa when the knock jarred him.</p>
                     <p>"Who is there?" he asked, springing to his feet.</p>
                     <p>A bright flash of lightning lit the sitting room, and thunder rumbled as if the skies were setting a wild beast loose.</p>
                     <p>"Who is there?" he asked again, but no one answered.</p>
                     <p>Then he ambled to the door and listened. Footsteps were echoing, chains rattling, and the air was pregnant with the alien smell of smoke.</p>
                     <p>"Who is there?" Obi asked yet again.</p>
                     <p>"Your neighbor," a silvery voice finally answered.</p>
-                    <p>Obi glanced sideways before pulling the door handle, but there was no one there. He peeked into the hallway and shook his head, his breath escaping in a quick sigh.</p>
-                    <p>He was about to shut the door when a sudden burst of smoke gripped him and hurled him to the floor, almost sucking air out from his body.</p>
-                    <p>"Obimma, right?" A silhouetted figure with chains stood in the doorway.</p>
+                    <p className={style.p8}>Obi glanced sideways before pulling the door handle, but there was no one there. He peeked into the hallway and shook his head, his breath escaping in a quick sigh.</p>
+                    <p className={style.p9}>He was about to shut the door when a sudden burst of smoke gripped him and hurled him to the floor, almost sucking air out from his body.</p>
+                    <p className={style.p10}>"Obimma, right?" A silhouetted figure with chains stood in the doorway.</p>
                     <p>Obi winced as he struggled to rise.</p>
-                    <p>"How are you still conscious?" The silhouetted figure growled. "No one in this building has ever survived my blow."</p>
+                    <p className={style.p12}>"How are you still conscious?" The silhouetted figure growled. "No one in this building has ever survived my blow."</p>
                     <p>Obi was kneeling, still trying to gain balance.</p>
-                    <p>The figure lunged forward this second and staggered backward the next second as though there was an invisible shield in the doorway.</p>
+                    <p className={style.p13}>The figure lunged forward this second and staggered backward the next second as though there was an invisible shield in the doorway.</p>
                     <p>"Why can't I get in?" it yelled.</p>
                     <p>Obi was still on his knees but revivified.</p>
                     <p>With head raised, he said, "Because."</p>
@@ -38,11 +38,11 @@ const Blog = () =>{
                     <p>Yes.</p>
                     <p>But let's quickly use this short piece to dish out some vital lessons.</p>
                     <p>*</p>
-                    <p>Now, while some of us share a certain resemblance with Obi, some don't.</p>
+                    <p className={style.p28}>Now, while some of us share a certain resemblance with Obi, some don't.</p>
                     <p>How so?</p>
                     <p>Let's take Obi's new apartment as a new level (a new phase) and the silhouetted figure as a new challenge.</p>
                     <p>Now, why do some of us pull up once we crush a certain goal―once we attain a certain level in life?</p>
-                    <p>Why do we buy into the notion that once we've accomplished a given task, then that's it, no more tasks ahead?</p>
+                    <p className={style.p32}>Why do we buy into the notion that once we've accomplished a given task, then that's it, no more tasks ahead?</p>
                     <p>Truth be told, Life is a journey filled with quests. Ergo, if you're going to pull up at some point to catch your breath, pull up.</p>
                     <p>But do keep in mind that it is not your final destination. Bear in mind that getting to a certain point doesn't equate to being free of challenges.</p>
                     <p>Whether or not you keep moving right away, you'll no doubt come face to face with challenges. Some will be small and others will loom large.</p>
