@@ -23,16 +23,22 @@
 
     .blogCont {
         padding-left: 10px;
-        padding-top: 100px;
+        padding-top: 70px;
     }
 
-    .p1{
-        width: 90%;
+    .pCont{
+        padding-left: 15px;
     }
 
-    /*.pCont{*/
-    /*    padding-left: 12px;*/
+    p{
+        width: 95%;
+    }
+
+    /*.p1{*/
+    /*    width: 90%;*/
     /*}*/
+
+
 
     /*.p8{*/
     /*    width: 95%;*/
