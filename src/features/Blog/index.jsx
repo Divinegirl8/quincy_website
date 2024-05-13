@@ -5,6 +5,7 @@ const Blog = () =>{
     return(
         <>
             <NavBar textColor={"yellow"} textColor2={"white"} textColor3={"white"} textColor4={"white"}/>
+
             <div className={style.blogCont}>
                 <div>
                     <img src={blog} alt={"blog picture"} className={style.blogImg}/>
