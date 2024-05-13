@@ -1,0 +1,21 @@
+.blogImg{
+    width: 100%;
+    max-width: 600px;
+}
+
+.blogCont {
+    padding-left: 600px;
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 500px){
+    .blogImg{
+        width: 97%;
+        max-width: 500px;
+    }
+
+    .blogCont {
+        padding-left: 20px;
+        padding-top: 100px;
+    }
+}

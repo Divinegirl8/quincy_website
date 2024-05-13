@@ -5,9 +5,9 @@ const Blog = () =>{
     return(
         <>
             <NavBar textColor={"yellow"} textColor2={"white"} textColor3={"white"} textColor4={"white"}/>
-            <div>
+            <div className={style.blogCont}>
                 <div>
-                    <img src={blog} alt={"blog picture"}/>
+                    <img src={blog} alt={"blog picture"} className={style.blogImg}/>
                 </div>
                 <div>
                     <p>The night Obi moved into his new flat, something came for him. He was lounging on the sofa when the knock jarred him.</p>
