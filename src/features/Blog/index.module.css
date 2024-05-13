@@ -12,17 +12,12 @@
     font-style: normal;
     font-size: 20px;
 }
-p{
+.pCont p{
     width: 50%;
 }
 
-.mainBlog{
-    display: flex;
-    flex-direction: row;
-}
-.additionalBk{
-    width: 50%;
-}
+
+
 
 @media screen and (max-width: 500px){
     .blogImg{
