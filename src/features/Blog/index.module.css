@@ -8,7 +8,9 @@
     padding-top: 150px;
     font-family: Times New Roman, serif; 
     white-space: pre-line;
-    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
 
@@ -28,35 +30,35 @@
         width: 90%;
     }
 
-    .pCont{
-        padding-left: 12px;
-    }
+    /*.pCont{*/
+    /*    padding-left: 12px;*/
+    /*}*/
 
-    .p8{
-        width: 95%;
-    }
+    /*.p8{*/
+    /*    width: 95%;*/
+    /*}*/
 
-    .p9{
-        width: 90%;
-    }
-    .p10{
-        width: 90%;
-    }
+    /*.p9{*/
+    /*    width: 90%;*/
+    /*}*/
+    /*.p10{*/
+    /*    width: 90%;*/
+    /*}*/
 
-    .p12{
-        width: 90%;
-    }
+    /*.p12{*/
+    /*    width: 90%;*/
+    /*}*/
 
 
-    .p13{
-        width: 95%;
-    }
+    /*.p13{*/
+    /*    width: 95%;*/
+    /*}*/
 
-    .p28{
-        width: 95%;
-    }
-    .p32{
-        width: 95%;
-    }
+    /*.p28{*/
+    /*    width: 95%;*/
+    /*}*/
+    /*.p32{*/
+    /*    width: 95%;*/
+    /*}*/
 
 }
