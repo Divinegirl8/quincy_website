@@ -47,7 +47,7 @@
     .bookCont{
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top: 100px;
+        padding-top: 200px;
     }
     .span2{
         width: 80%;

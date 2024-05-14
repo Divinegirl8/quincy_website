@@ -34,7 +34,7 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                     </Link>
 
 
-                    <Link to={"/about"} className={style.link}  className={style.link} style={{color:textColor3}}>
+                    <Link to={"/about"}   className={style.link} style={{color:textColor3}}>
                         <span>ABOUT</span>
                     </Link>
 

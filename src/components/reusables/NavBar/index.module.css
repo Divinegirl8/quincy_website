@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 .mainCont {
     display: flex;
     flex-direction: row;
@@ -44,6 +45,8 @@
 .logo {
     display: flex;
     padding-left: 100px;
+    font-family: "Caveat Brush", cursive;
+    font-style: normal;
 }
 
 .frm {
@@ -119,8 +122,11 @@
 
     .logo {
         padding-left: 1px;
-        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
     }
+
 
     .hamburger {
         display: none;
@@ -148,18 +154,34 @@
     }
 
     .ico {
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 20px;
         font-size: 25px;
         align-items: center;
         justify-content: center;
         display: flex;
+        margin-left: -280px;
     }
 
-    .childCont, .frm{
+    .childCont{
         display: block;
     }
 
+    .childCont {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding-top: 5px;
+        cursor: pointer;
+        padding-left: 50px;
+    }
     .mainCont {
         flex-direction: column;
     }
+
+    .frm{
+        display: none;
+    }
+
+
 }
