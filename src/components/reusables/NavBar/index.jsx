@@ -41,7 +41,7 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                     <Link to={""} className={style.link} style={{color:textColor4}}>
                         <span>CONTACT</span>
                     </Link>
-
+                </div>
 
                     <div className={style.ico}>
                         <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,7 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                             <FontAwesomeIcon icon={faGoogle} className={style.google}/>
                         </a>
                     </div>
-                </div>
+
 
                 {/*<div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>*/}
                 {/*    <Link to={"/"} className={style.link}  style={{color:textColor}}>*/}
