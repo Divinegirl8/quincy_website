@@ -99,7 +99,7 @@
 @media screen and (max-width: 500px){
     .mainContainer {
         flex-direction: column;
-        padding-top: 40px;
+        padding-top: 150px;
 
     }
 
