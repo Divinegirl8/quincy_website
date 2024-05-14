@@ -123,7 +123,7 @@
     }
 
     .hamburger {
-        display: block;
+        display: none;
         padding-top: 12px;
     }
 
@@ -156,6 +156,10 @@
     }
 
     .childCont, .frm{
-        display: none;
+        display: block;
+    }
+
+    .mainCont {
+        flex-direction: column;
     }
 }

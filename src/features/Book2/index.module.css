@@ -4,6 +4,7 @@
     align-items: flex-start;
     gap: 20px;
     padding-top: 100px;
+    font-family: Times New Roman, serif;
 }
 
 .bookContainer2 {
@@ -29,7 +30,7 @@
 
 .bookDescription2 {
     color: #333;
-    font-size: 16px;
+    font-size: 19px;
     text-align: justify;
 }
 
@@ -112,7 +113,7 @@
 
     .bookContainer2 {
         background-color: #fff;
-        margin-left: 10px;
+        margin-left: 1px;
         box-shadow: none;
         border: none;
     }

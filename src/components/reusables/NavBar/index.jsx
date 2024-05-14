@@ -58,40 +58,40 @@ const NavBar = ({textColor,textColor2,textColor3,textColor4}) => {
                     </div>
                 </div>
 
-                <div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>
-                    <Link to={"/"} className={style.link}  style={{color:textColor}}>
-                        <span className={style.blog}>BLOG</span>
-                    </Link>
+                {/*<div className={`${style.mobileNav} ${isActive ? style.mobile : ''}`}>*/}
+                {/*    <Link to={"/"} className={style.link}  style={{color:textColor}}>*/}
+                {/*        <span className={style.blog}>BLOG</span>*/}
+                {/*    </Link>*/}
 
-                    <Link to={"/books"} className={style.link}  style={{color:textColor2}}>
-                        <span>BOOKS</span>
-                    </Link>
-
-
-                    <Link to={"/about"} className={style.link} style={{color:textColor3}}>
-                        <span>ABOUT</span>
-                    </Link>
-
-                    <Link to={""} className={style.link}  style={{color:textColor4}}>
-                        <span>CONTACT</span>
-                    </Link>
+                {/*    <Link to={"/books"} className={style.link}  style={{color:textColor2}}>*/}
+                {/*        <span>BOOKS</span>*/}
+                {/*    </Link>*/}
 
 
-                    <div className={style.ico}>
-                        <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faInstagram} className={style.ig}/>
-                        </a>
+                {/*    <Link to={"/about"} className={style.link} style={{color:textColor3}}>*/}
+                {/*        <span>ABOUT</span>*/}
+                {/*    </Link>*/}
 
-                        <a href="https://www.tiktok.com/@tobenquincy?_t=8lxWpTnxM5V&_r=1" target="_blank"
-                           rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faTiktok} className={style.tik}/>
-                        </a>
+                {/*    <Link to={""} className={style.link}  style={{color:textColor4}}>*/}
+                {/*        <span>CONTACT</span>*/}
+                {/*    </Link>*/}
 
-                        <a href="mailto:quincyalagbu@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGoogle} className={style.google}/>
-                        </a>
-                    </div>
-                </div>
+
+                {/*    <div className={style.ico}>*/}
+                {/*        <a href="https://www.instagram.com/tobenquincy" target="_blank" rel="noopener noreferrer">*/}
+                {/*            <FontAwesomeIcon icon={faInstagram} className={style.ig}/>*/}
+                {/*        </a>*/}
+
+                {/*        <a href="https://www.tiktok.com/@tobenquincy?_t=8lxWpTnxM5V&_r=1" target="_blank"*/}
+                {/*           rel="noopener noreferrer">*/}
+                {/*            <FontAwesomeIcon icon={faTiktok} className={style.tik}/>*/}
+                {/*        </a>*/}
+
+                {/*        <a href="mailto:quincyalagbu@gmail.com" target="_blank" rel="noopener noreferrer">*/}
+                {/*            <FontAwesomeIcon icon={faGoogle} className={style.google}/>*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
                 <div className={style.frm}>
                     <form>

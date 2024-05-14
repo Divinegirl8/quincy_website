@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 250px;
+    font-family: Times New Roman, serif;
 }
 .bookCont img{
     width: 55%;
@@ -19,7 +20,6 @@
 .book1 span, h4{
     display: flex;
     flex-direction: column;
-    font-family: "Tinos", serif;
     font-weight: 700;
     font-style: italic;
 

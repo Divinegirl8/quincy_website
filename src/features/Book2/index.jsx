@@ -76,8 +76,8 @@ const Book2 = () => {
                         storytelling. As a writing coach, I highly recommend this book to those who want to take their
                         writing to the next level. This is undoubtedly a must-have.'
                     </p>
-                    <h4>— Precious Osikha Esq.
-                        Co-founder, Bookney App, Bestselling Author, and Writing Coach.</h4>
+                    <h4>— Precious Osikha Esq.</h4>
+                      <h4> Co-founder, Bookney App, Bestselling Author, and Writing Coach.</h4>
 
                     <p>
                         'There is one thing about Quincy's LITERARY SEDUCER that is simply first-rate and that is
@@ -85,10 +85,8 @@ const Book2 = () => {
                         this sweet and uncomplicated? THE LITERARY SEDUCER is simply gold. A next-level game changer for
                         powerful fiction.'
                     </p>
-                    <h4>
-                        — Divine A. James
-                        Creative and Programmer.
-                    </h4>
+                    <h4>— Divine A. James </h4>
+                        <h4> Creative and Programmer.</h4>
 
                     <p>
                         'If you are a fiction writer or you're aspiring to become one, THE LITERARY SEDUCER is
@@ -96,10 +94,8 @@ const Book2 = () => {
                         tips and techniques fiction writers can utilize in commanding readers' attention but also
                         delivers this with a simple, straightforward and conversational approach.'
                     </p>
-                    <h4>
-                        — Grace Onyema
-                        Author and Digital Entrepreneur.
-                    </h4>
+                    <h4>— Grace Onyema </h4>
+                       <h4> Author and Digital Entrepreneur.</h4>
 
                     <p>
                         Find out now how you can take your writing to the next level without trying too hard!
