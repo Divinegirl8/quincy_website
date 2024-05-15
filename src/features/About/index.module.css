@@ -26,6 +26,9 @@ flex-direction: row;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 500px){
@@ -41,7 +44,7 @@ flex-direction: row;
     }
 
     .fto{
-        margin-top: 200px;
+        margin-top: 180px;
     }
 
     .fto .foto{

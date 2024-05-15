@@ -122,5 +122,9 @@
         margin-left: 30px;
     }
 
+    .bookLink {
+        padding: 15px 7px;
+        font-size: 15px;
+    }
 
 }
