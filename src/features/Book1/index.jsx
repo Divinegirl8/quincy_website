@@ -28,7 +28,7 @@ const Book1 = () => {
                         Effortlessly and spiritually nutritious. A grandfather-grandson relationship
                         in shades you've never seen before. A solid reminder of the power that memories carry.
                     </h4>
-                    <p>
+                    <p className={style.ome}>
                         Omeiheukwu: The One Who Does Extraordinary Things is a highly uplifting account of a loved one
                         who has passed. A glorious tribute to a man who brought color to so many lives. With exquisite
                         tunefulness and compelling simplicity that is, at times, deeply moving, and at times,

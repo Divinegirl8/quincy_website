@@ -57,17 +57,23 @@
 
 .bookLink2 {
     display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    font-family: Times New Roman, serif;
+    /*background-color: #4CAF50;*/
+    color: #4CAF50;
+    /*padding: 10px 20px;*/
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px;
+    /*margin: 5px;*/
 }
 
-.bookLink2:hover {
-    background-color: #45a049;
+/*.bookLink2:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+
+.dvyn{
+    line-height: 5px;
 }
+
 
 .additionalBookSection2 {
     max-width: 200px;
@@ -95,6 +101,18 @@
 
 .additionalBookMobileSection2 {
     display: none;
+}
+
+.cyt{
+    font-weight: 600;
+}
+
+.wrt{
+    font-size: 20px;
+}
+
+.pTagg{
+    font-size: 16px;
 }
 
 @media screen and (max-width: 500px){

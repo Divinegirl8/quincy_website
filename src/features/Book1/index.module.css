@@ -7,6 +7,10 @@
     font-family: Times New Roman, serif;
 }
 
+.ome{
+    font-size: 20px;
+}
+
 .bookContainer {
     max-width: 800px;
     padding: 20px;
